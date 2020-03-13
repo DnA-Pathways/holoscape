@@ -60,14 +60,14 @@ echo "All finished!!!"
   # the commit hash that the release process should target
   # this will always be behind what ends up being deployed
   # the release process needs to add some commits for changelog etc.
-  commit = "799231f421ae63b7a705ba5b20efdde36ca641e6";
+  commit = "e76cd36e9ce739a503fe8ab43d4436ac0edd8e21";
 
   # the semver for prev and current releases
   # the previous version will be scanned/bumped by release scripts
   # the current version is what the release scripts bump *to*
   version = {
-   current = "0.1.8";
-   previous = "0.1.7";
+   current = "0.1.9";
+   previous = "0.1.8";
   };
 
   github = {
@@ -88,7 +88,7 @@ See:
 '';
 
    # owner of the github repository that release are deployed to
-   owner = "holochain";
+   owner = "DnA-Pathways";
 
    # repository name on github that release are deployed to
    repo = "holoscape";
